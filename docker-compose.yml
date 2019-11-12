@@ -1,0 +1,18 @@
+version: '3'
+services:
+  selenium-chrome-standalone:
+    image: selenium/standalone-chrome:3.141.59-dubnium
+    ports:
+      - 4444:4444
+    volumes:
+      - shared:/home/protractor-test
+  protractor:
+    build: .
+    environment:
+      - SELENIUM_ADDRESS=http://selenium-chrome-standalone:4444/wd/hub
+    volumes:
+      - shared:/home/protractor-test
+    links:
+      - selenium-chrome-standalone
+volumes:
+  shared:

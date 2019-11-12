@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug protractor",
+            "type": "node",
+            "request": "launch",
+            "sourceMaps": true,
+            "stopOnEntry": false,
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/node_modules/protractor/bin/protractor",
+            "args": [
+                "${workspaceRoot}/dist/config.js"
+            ],
+            "preLaunchTask": "build ts",
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ]
+        }
+    ]
+}

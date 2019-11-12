@@ -1,0 +1,26 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "npm-debug.*": true,
+        ".vscode": false,
+        "**/log": true,
+        "**/*.retry": true,
+        "dist": true
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000,
+    "cSpell.words": [
+        "amazonaws",
+        "awsvpc",
+        "chromedriver",
+        "fargate",
+        "geckodriver",
+        "jsons",
+        "promisify",
+        "screenshoter",
+        "subfolder"
+    ],
+    "dimmer.enabled": false
+}

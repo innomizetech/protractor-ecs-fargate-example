@@ -1,0 +1,1 @@
+# Define your page object that can be reuse across different specs

@@ -1,0 +1,16 @@
+node_modules/
+reports/
+.config
+.env
+protractor-error.log
+dist/
+
+# CDK asset staging directory
+infra/.cdk.staging/
+infra/cdk.out/
+infra/cdk.outputs.json
+infra/cdk.context.json
+
+# Test output files
+*.png
+data/*

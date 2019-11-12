@@ -1,0 +1,8 @@
+**/node_modules
+docker-compose*
+Jenkins*
+*.md
+dist/
+reports/
+**/infra/*
+selinium-driver/

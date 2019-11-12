@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "types": ["node", "jasmine", "protractor"],
+    "lib": ["es2015", "es2017", "dom", "es6"]
+  },
+  "exclude": ["node_modules", "plugins.ts", "infra"]
+}
